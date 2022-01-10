@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        /* BOX-LEVEL */
+        h1 {
+            background-color: cadetblue;
+            height: 199px;
+            width: 299px;
+
+            border: 10px solid rgb(131, 20, 20);
+
+            padding: 10px 10px 10px 10px;
+
+            margin: 10px 10px 40px 10px;
+
+            outline: 2px dashed brown;
+        }
+        /* INLINE-LEVEL */
+        a {
+            display: block;
+            color: blue;
+            border-width: 5px;
+            border-style: double;
+            border-color: red;
+            border-radius: 4px;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos tambem são exemplos de box-level,mas os <a href="#">links links links links developer links links links</a> não são. OS LINKS SÃO INLINE-LEVEL.</p>
+
+</body>
+</html>

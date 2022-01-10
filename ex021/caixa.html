@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupar TAGS</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border-width: 7px;
+            border-style: solid;
+            border-color: rgb(102, 32, 168);
+            border-radius: 5px;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: white;
+            padding: 3px;
+            border-radius: 4px;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.815);
+        }
+
+        nav a {
+            color: rgb(0, 38, 255);
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: rgb(8, 8, 141);
+        }
+
+        main {
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border-width: 7px;
+            border-style: solid;
+            border-color: rgb(102, 32, 168);
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: white;
+            padding: 5px;
+            margin-bottom: 10px 0px;
+            border-radius: 10px 0px;
+        }
+
+        article p {
+            text-align: justify;
+        }
+
+        article aside {
+            background-color: rgb(165, 165, 165);
+            border-radius: 1px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+
+        footer p {
+            margin: 0px;
+        }
+
+        div#bola {
+            background-color: blueviolet;
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- CABEÇALHO É IGUAL A CABEÇA DO SEU SITE OU O COMEÇO DELE VOÇE PODE INTRODUZIR UM <nav> POR EXEMPLO. -->
+        <h1>Meu site</h1>
+        <nav> <!-- MENU DO SEU SITE OU MENU DE NAVEGAÇAO DELE. -->
+            <a href="#">Home</a>
+            <a href="#">Pesquisa</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Fretes</a>
+        </nav>
+    </header>
+    <main> 
+        <section id="assuntos"> <!-- -->
+            <article> <!-- É O MEU CONTÉUDO PRINCIPAL -->
+                <h2>Assuntos de money</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eum aut illum rem autem qui error minima animi, aperiam sunt consectetur excepturi eos quis iure quod tempora hic modi incidunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit placeat laboriosam cumque accusamus perferendis? Amet sit id, deserunt dolorum excepturi distinctio dolorem odit placeat, perspiciatis cum suscipit a, nam quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum non neque, eligendi nisi facere obcaecati, illo amet nesciunt, voluptas dignissimos saepe sunt rerum quia alias reiciendis provident sequi vitae! Assumenda. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sunt quis cupiditate optio maiores. In doloribus explicabo nisi porro necessitatibus aliquid expedita, id blanditiis suscipit! Eius molestias laborum quas non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, saepe assumenda voluptate aut illo repellendus et perspiciatis nam asperiores! Ipsum tenetur tempore nostrum quo totam expedita temporibus suscipit reiciendis obcaecati!</p>
+                <aside> <!--ESTA TAG SIGNIFICA UM COMENTARIO COMO ALGO A MAIS QUE FALTOU -->>
+                    <p>Escrito por Lucas da Silva.</p>
+                </aside>
+            </article>
+        </section> <!--AVALIE SE VOÇE NAO PODE USAR NENHUMA DAS TAGS COMO: HEADER NAV MAIN ARTICLE FOOTER E ASIDE, AI VOÇE UTILIZA ELA E MEIO QUE CRIA UMA SEÇAO A MAIS-->
+    </main>
+    <footer> <!-- RODAPÉ DO SEU SITE, VOÇE PODE ESCREVER POR QUEM FOI DESENVOLVIDO O SITE -->
+        <p>Desenvolvido pelo Lucas</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
